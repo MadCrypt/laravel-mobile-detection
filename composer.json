@@ -1,5 +1,5 @@
 {
-    "name": "MadCrypt/laravel-mobile-detect",
+    "name": "madcrypt/laravel-mobile-detect",
     "description": "Instant mobile detection access directly from within Blade templates.",
     "keywords": ["laravel", "mobile", "detection", "blade"],
     "license": "MIT",
