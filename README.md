@@ -12,7 +12,7 @@ The package implements various Blade directives that you can use to serve differ
 Install the package through composer:
 
 ```sh
-$ composer require riverskies/laravel-mobile-detect
+$ composer require MadCrypt/laravel-mobile-detect
 ```
 
 ### Laravel 5.4 or earlier
