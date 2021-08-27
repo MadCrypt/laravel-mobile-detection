@@ -1,8 +1,8 @@
 <?php
 
-namespace Riverskies\Laravel\MobileDetect\Directives;
+namespace MadCrypt\Laravel\MobileDetect\Directives;
 
-use Riverskies\Laravel\MobileDetect\Contracts\BladeDirectiveInterface;
+use MadCrypt\Laravel\MobileDetect\Contracts\BladeDirectiveInterface;
 
 class AndroidBladeDirective implements BladeDirectiveInterface
 {

@@ -2,7 +2,7 @@
 
 use Detection\MobileDetect;
 use Philo\Blade\Blade;
-use Riverskies\Laravel\MobileDetect\Contracts\BladeDirectiveInterface;
+use MadCrypt\Laravel\MobileDetect\Contracts\BladeDirectiveInterface;
 
 abstract class TestCase extends \Illuminate\Foundation\Testing\TestCase
 {

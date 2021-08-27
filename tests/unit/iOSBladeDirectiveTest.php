@@ -1,6 +1,6 @@
 <?php
 
-use Riverskies\Laravel\MobileDetect\Directives\iOSBladeDirective;
+use MadCrypt\Laravel\MobileDetect\Directives\iOSBladeDirective;
 
 class iOSBladeDirectiveTest extends TestCase
 {
