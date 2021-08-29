@@ -1,4 +1,4 @@
-# Laravel Mobile Detect
+# Laravel Mobile Detection in Blade
 
 A package that enables you to use device detection right in your Blade templates. (Utilises the well-known, constantly updated [PHP mobile detection library](http://mobiledetect.net/).)
 
