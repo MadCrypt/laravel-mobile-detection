@@ -41,9 +41,13 @@ Use the new Blade directives in your template files:
 > **NOTE** You might have to run `php artisan view:clear` to have the new Blade directives take effect!
 
 ### Available directives
-`@desktop`, `@elsedesktop`, `@enddesktop` - for destkop devices
 
-`@handheld`, `@elsehandheld`, `@endhandheld` - for non-desktop (mobile and tablet) devices
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Destkop devices  | `@desktop`, `@elsedesktop`, `@enddesktop`  |
+| Mobile and tablet  | `@handheld`, `@elsehandheld`, `@endhandheld`  |
+
+ 
 
 `@tablet`, `@elsetablet`, `@endtablet` - for tablet devices
 
