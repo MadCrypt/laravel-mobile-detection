@@ -42,23 +42,17 @@ Use the new Blade directives in your template files:
 
 ### Available directives
 
-| First Header  | Second Header |
+| Device  | directives |
 | ------------- | ------------- |
 | Destkop devices  | `@desktop`, `@elsedesktop`, `@enddesktop`  |
 | Mobile and tablet  | `@handheld`, `@elsehandheld`, `@endhandheld`  |
-
+| tablet devices | `@tablet`, `@elsetablet`, `@endtablet`  |
+| Non-tablet (desktop or mobile) devices | `@nottablet`, `@elsenottablet`, `@endnottablet`  |
+| Mobile devices | `@mobile`, `@elsemobile`, `@endmobile`  |
+| Non-mobile (desktop or tablet) devices | `@notmobile`, `@elsenotmobile`, `@endnotmobile` |
+| iOS platforms | `@ios`, `@elseios`, `@endios`  |
+| Android platforms | `@android`, `@elseandroid`, `@endandroid`  |
  
-
-`@tablet`, `@elsetablet`, `@endtablet` - for tablet devices
-
-`@nottablet`, `@elsenottablet`, `@endnottablet` - for non-tablet (desktop or mobile) devices
-
-`@mobile`, `@elsemobile`, `@endmobile` - for mobile devices
-
-`@notmobile`, `@elsenotmobile`, `@endnotmobile` - for non-mobile (desktop or tablet) devices
-
-`@ios`, `@elseios`, `@endios` - for iOS platforms
-
-`@android`, `@elseandroid`, `@endandroid` - for Android platforms
+ 
 
 The usage of `@else...` directives are optional.
