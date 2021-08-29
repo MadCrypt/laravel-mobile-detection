@@ -1,27 +1,27 @@
 {
-    "name": "madcrypt/laravel-mobile-detect",
+    "name": "nxtcode/laravel-mobile-detect",
     "description": "Instant mobile detection access directly from within Blade templates.",
     "keywords": ["laravel", "mobile", "detection", "blade"],
     "license": "MIT",
     "authors": [
         {
-            "name": "MadCrypt",
-            "email": "hello@MadCrypt.com"
+            "name": "NxtCode",
+            "email": "hello@NxtCode.com"
         }
     ],
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "MadCrypt\\Laravel\\MobileDetect\\": "src/"
+            "NxtCode\\Laravel\\MobileDetect\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "MadCrypt\\Laravel\\MobileDetect\\MobileDetectServiceProvider"
+                "NxtCode\\Laravel\\MobileDetect\\MobileDetectServiceProvider"
             ],
             "aliases": {
-                "MobileDetect": "MadCrypt\\Laravel\\MobileDetect\\Facades\\MobileDetect"
+                "MobileDetect": "NxtCode\\Laravel\\MobileDetect\\Facades\\MobileDetect"
             }
         }
     },

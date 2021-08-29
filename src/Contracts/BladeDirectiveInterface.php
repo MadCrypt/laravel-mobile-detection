@@ -1,6 +1,6 @@
 <?php
 
-namespace MadCrypt\Laravel\MobileDetect\Contracts;
+namespace NxtCode\Laravel\MobileDetect\Contracts;
 
 interface BladeDirectiveInterface
 {

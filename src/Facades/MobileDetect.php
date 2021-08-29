@@ -1,6 +1,6 @@
 <?php
 
-namespace MadCrypt\Laravel\MobileDetect\Facades;
+namespace NxtCode\Laravel\MobileDetect\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

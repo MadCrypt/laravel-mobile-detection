@@ -1,8 +1,8 @@
 <?php
 
-namespace MadCrypt\Laravel\MobileDetect\Directives;
+namespace NxtCode\Laravel\MobileDetect\Directives;
 
-use MadCrypt\Laravel\MobileDetect\Contracts\BladeDirectiveInterface;
+use NxtCode\Laravel\MobileDetect\Contracts\BladeDirectiveInterface;
 
 class MobileBladeDirective implements BladeDirectiveInterface
 {

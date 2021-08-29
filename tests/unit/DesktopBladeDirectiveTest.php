@@ -1,6 +1,6 @@
 <?php
 
-use MadCrypt\Laravel\MobileDetect\Directives\DesktopBladeDirective;
+use NxtCode\Laravel\MobileDetect\Directives\DesktopBladeDirective;
 
 class DesktopBladeDirectiveTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-use MadCrypt\Laravel\MobileDetect\Directives\AndroidBladeDirective;
+use NxtCode\Laravel\MobileDetect\Directives\AndroidBladeDirective;
 
 class AndroidBladeDirectiveTest extends TestCase
 {

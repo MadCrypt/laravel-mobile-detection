@@ -1,19 +1,19 @@
 <?php
 
-namespace MadCrypt\Laravel\MobileDetect;
+namespace NxtCode\Laravel\MobileDetect;
 
 use Detection\MobileDetect;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
-use MadCrypt\Laravel\MobileDetect\Contracts\BladeDirectiveInterface;
-use MadCrypt\Laravel\MobileDetect\Directives\AndroidBladeDirective;
-use MadCrypt\Laravel\MobileDetect\Directives\DesktopBladeDirective;
-use MadCrypt\Laravel\MobileDetect\Directives\HandheldBladeDirective;
-use MadCrypt\Laravel\MobileDetect\Directives\iOSBladeDirective;
-use MadCrypt\Laravel\MobileDetect\Directives\MobileBladeDirective;
-use MadCrypt\Laravel\MobileDetect\Directives\NotMobileBladeDirective;
-use MadCrypt\Laravel\MobileDetect\Directives\NotTabletBladeDirective;
-use MadCrypt\Laravel\MobileDetect\Directives\TabletBladeDirective;
+use NxtCode\Laravel\MobileDetect\Contracts\BladeDirectiveInterface;
+use NxtCode\Laravel\MobileDetect\Directives\AndroidBladeDirective;
+use NxtCode\Laravel\MobileDetect\Directives\DesktopBladeDirective;
+use NxtCode\Laravel\MobileDetect\Directives\HandheldBladeDirective;
+use NxtCode\Laravel\MobileDetect\Directives\iOSBladeDirective;
+use NxtCode\Laravel\MobileDetect\Directives\MobileBladeDirective;
+use NxtCode\Laravel\MobileDetect\Directives\NotMobileBladeDirective;
+use NxtCode\Laravel\MobileDetect\Directives\NotTabletBladeDirective;
+use NxtCode\Laravel\MobileDetect\Directives\TabletBladeDirective;
 
 class MobileDetectServiceProvider extends ServiceProvider
 {
