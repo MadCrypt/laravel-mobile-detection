@@ -12,19 +12,19 @@ The package implements various Blade directives that you can use to serve differ
 Install the package through composer:
 
 ```sh
-$ composer require MadCrypt/laravel-mobile-detect
+$ composer require NxtCode/laravel-mobile-detect
 ```
 
 ### Laravel 5.4 or earlier
 Add the service provider to your **config/app.php** file:
 
 ```php
-MadCrypt\Laravel\MobileDetect\MobileDetectServiceProvider::class
+NxtCode\Laravel\MobileDetect\MobileDetectServiceProvider::class
 ```
 
 Optionally, you can add an alias as well if you'd like to use the underlying instance anywhere else (or have access to all the functions):
 ```php
-'MobileDetect' => MadCrypt\Laravel\MobileDetect\Facades\MobileDetect::class
+'MobileDetect' => NxtCode\Laravel\MobileDetect\Facades\MobileDetect::class
 ```
 
 ### Usage
